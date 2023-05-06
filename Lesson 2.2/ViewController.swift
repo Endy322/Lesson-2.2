@@ -18,6 +18,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        trafficLightBody.layer.cornerRadius = 15
+        startTrafficLight.layer.cornerRadius = 15
+        
+        redWindow.layer.cornerRadius = 90
+        yellowWindow.layer.cornerRadius = 90
+        greenWindow.layer.cornerRadius = 90
         
     }
 

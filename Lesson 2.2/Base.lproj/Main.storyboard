@@ -79,9 +79,11 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="greenWindow" destination="NAx-NS-1ci" id="KCg-fo-i2Y"/>
                         <outlet property="redWindow" destination="ri1-1f-lYM" id="aSg-VV-9T7"/>
+                        <outlet property="startTrafficLight" destination="hO2-bO-oQS" id="BdK-mH-Bmy"/>
                         <outlet property="trafficLightBody" destination="eYj-be-tXj" id="e2T-rZ-U8Q"/>
-                        <outlet property="yellowWindow" destination="N0Z-1V-hUI" id="uHW-qw-r65"/>
+                        <outlet property="yellowWindow" destination="N0Z-1V-hUI" id="huO-Oh-9oT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
