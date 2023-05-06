@@ -24,6 +24,10 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hO2-bO-oQS">
                                 <rect key="frame" x="159" y="732" width="75" height="36"/>
                                 <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="2Az-Wx-swp"/>
+                                    <constraint firstAttribute="height" constant="36" id="sa8-wY-xcO"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Start">
@@ -44,6 +48,10 @@
                             <constraint firstItem="eYj-be-tXj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="smN-Xd-yCl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="startTrafficLight" destination="hO2-bO-oQS" id="vbh-nA-OvF"/>
+                        <outlet property="trafficLightBody" destination="eYj-be-tXj" id="e2T-rZ-U8Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

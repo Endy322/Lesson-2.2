@@ -9,9 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var trafficLightBody: UIView!
+    @IBOutlet var startTrafficLight: UIButton!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        startTrafficLight.layer.cornerRadius = 15
     }
 
 
