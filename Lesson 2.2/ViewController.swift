@@ -8,6 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+            
+    enum CurrentLight {
+        case red, yellow, green
+    }
     
     @IBOutlet var trafficLightBody: UIView!
     @IBOutlet var redWindow: UIView!
@@ -36,26 +40,32 @@ class ViewController: UIViewController {
         
     }
     
-    extension ViewController {
-            enum CurrentLight {
-            case red, yellow, green
-        }
-    }
     
     
-    
-    @IBAction func switchingTrafficLight(_ sender: UIButton) {
+    @IBAction func switchingTrafficLight() {
         if startTrafficLight.currentTitle == "Start" {
             startTrafficLight.setTitle("Next", for: .normal)
+        }
             
             switch currentLight {
-                
+                case .red:
+                greenWindow.alpha = trafficLightOff
+                redWindow.alpha = trafficLightOn
+                currentLight = .yellow
+            case .yellow:
+                redWindow.alpha = trafficLightOff
+                yellowWindow.alpha = trafficLightOn
+                currentLight = .green
+            case .green:
+                greenWindow.alpha = trafficLightOn
+                yellowWindow.alpha = trafficLightOff
+                currentLight = .red
             }
             
         }
         
     }
     
-}
+
 
 

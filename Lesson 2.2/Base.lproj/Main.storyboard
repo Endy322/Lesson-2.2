@@ -63,7 +63,7 @@
                                     <color key="titleShadowColor" systemColor="systemGray6Color"/>
                                 </state>
                                 <connections>
-                                    <action selector="switchingTrafficLight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zJu-bz-Kh2"/>
+                                    <action selector="switchingTrafficLight" destination="BYZ-38-t0r" eventType="touchUpInside" id="jnc-Qd-Xak"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -80,11 +80,11 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="greenWindow" destination="NAx-NS-1ci" id="KCg-fo-i2Y"/>
-                        <outlet property="redWindow" destination="ri1-1f-lYM" id="d4P-gH-NAW"/>
-                        <outlet property="startTrafficLight" destination="hO2-bO-oQS" id="BdK-mH-Bmy"/>
-                        <outlet property="trafficLightBody" destination="eYj-be-tXj" id="e2T-rZ-U8Q"/>
-                        <outlet property="yellowWindow" destination="N0Z-1V-hUI" id="huO-Oh-9oT"/>
+                        <outlet property="greenWindow" destination="NAx-NS-1ci" id="ZRg-ie-cYh"/>
+                        <outlet property="redWindow" destination="ri1-1f-lYM" id="r90-k0-y4O"/>
+                        <outlet property="startTrafficLight" destination="hO2-bO-oQS" id="ky6-eK-8bk"/>
+                        <outlet property="trafficLightBody" destination="eYj-be-tXj" id="EMZ-Gr-N94"/>
+                        <outlet property="yellowWindow" destination="N0Z-1V-hUI" id="Lmo-qN-HtJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
