@@ -61,6 +61,9 @@
                                     <color key="titleColor" systemColor="systemRedColor"/>
                                     <color key="titleShadowColor" systemColor="systemGray6Color"/>
                                 </state>
+                                <connections>
+                                    <action selector="switchingTrafficLight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zJu-bz-Kh2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -76,9 +79,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="greenWindow" destination="NAx-NS-1ci" id="igq-AC-sJR"/>
                         <outlet property="redWindow" destination="ri1-1f-lYM" id="aSg-VV-9T7"/>
-                        <outlet property="startTrafficLight" destination="hO2-bO-oQS" id="vbh-nA-OvF"/>
                         <outlet property="trafficLightBody" destination="eYj-be-tXj" id="e2T-rZ-U8Q"/>
                         <outlet property="yellowWindow" destination="N0Z-1V-hUI" id="uHW-qw-r65"/>
                     </connections>
