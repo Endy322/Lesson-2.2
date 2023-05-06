@@ -18,6 +18,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        redWindow.alpha = 0.3
+        yellowWindow.alpha = 0.3
+        greenWindow.alpha = 0.3
+        
         trafficLightBody.layer.cornerRadius = 15
         startTrafficLight.layer.cornerRadius = 15
         
@@ -28,7 +32,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func switchingTrafficLight(_ sender: UIButton) {
-    
+       
     }
     
 }

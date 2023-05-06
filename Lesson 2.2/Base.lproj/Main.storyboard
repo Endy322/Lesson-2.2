@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -80,7 +81,7 @@
                     </view>
                     <connections>
                         <outlet property="greenWindow" destination="NAx-NS-1ci" id="KCg-fo-i2Y"/>
-                        <outlet property="redWindow" destination="ri1-1f-lYM" id="aSg-VV-9T7"/>
+                        <outlet property="redWindow" destination="ri1-1f-lYM" id="d4P-gH-NAW"/>
                         <outlet property="startTrafficLight" destination="hO2-bO-oQS" id="BdK-mH-Bmy"/>
                         <outlet property="trafficLightBody" destination="eYj-be-tXj" id="e2T-rZ-U8Q"/>
                         <outlet property="yellowWindow" destination="N0Z-1V-hUI" id="huO-Oh-9oT"/>
