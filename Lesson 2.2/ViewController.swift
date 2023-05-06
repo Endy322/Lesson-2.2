@@ -12,7 +12,9 @@ class ViewController: UIViewController {
     @IBOutlet var trafficLightBody: UIView!
     @IBOutlet var startTrafficLight: UIButton!
     
-    
+    @IBOutlet var redWindow: UIView!
+    @IBOutlet var yellowWindow: UIView!
+    @IBOutlet var greenWindow: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
